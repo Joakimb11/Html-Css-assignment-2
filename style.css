@@ -1,0 +1,64 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.flex-container {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+}
+.flex-item {
+  padding: 48px;
+  display: flex;
+  flex-flow: column;
+}
+
+img {
+  align-self: flex-start;
+}
+
+p {
+  margin-top: 24px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+  margin-top: 16px;
+  font-family: "big shoulders display", sans-serif;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+}
+
+.bg-orange {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.text-orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.bg-blue {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.text-blue {
+  color: hsl(184, 100%, 22%);
+}
+
+.bg-green {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.text-green {
+  color: hsl(179, 100%, 13%);
+}
+
+button {
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  background: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  margin-top: auto;
+}
